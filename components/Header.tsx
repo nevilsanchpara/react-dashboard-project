@@ -1,7 +1,7 @@
 import React from "react";
 import {AiOutlineSetting} from "react-icons/ai";
 import {FiMessageSquare} from "react-icons/fi";
-import {IoMdNotificationsOutline} from "react-icons/Io";
+import {MdNotificationsNone} from "react-icons/md";
 import {BiSearchAlt2} from "react-icons/Bi";
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
           <div className='flex icons gap-2 mt-2'>
             <AiOutlineSetting size={20} color='gray' />
             <FiMessageSquare size={20} color='gray' />
-            <IoMdNotificationsOutline size={20} color='gray' />
+            <MdNotificationsNone size={20} color='gray' />
           </div>
           <div className='flex gap-2'>
             <div className='text-center'>
