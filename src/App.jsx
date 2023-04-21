@@ -4,10 +4,10 @@ import Sidebar from "../components/Sidebar";
 import {
   AiOutlineDashboard,
   AiOutlineSetting,
+  AiFillCaretDown,
   AiOutlineUnorderedList,
 } from "react-icons/ai";
 import {BiHelpCircle} from "react-icons/bi";
-import {GoChevronDown} from "react-icons/Go";
 import {TbWorld, TbFiles} from "react-icons/tb";
 import {RiUserSearchLine, RiGalleryLine} from "react-icons/ri";
 import {HiOutlineDocumentDuplicate} from "react-icons/hi";
@@ -119,7 +119,7 @@ export default function App() {
                     </p>
                     {d.submenu && (
                       <div className='group-hover:text-[#FFFFFF]'>
-                        <GoChevronDown
+                        <AiFillCaretDown
                           onClick={() => setSubMenuOpen(!subMenuOpen)}
                           color='#5A5A5A'
                           className='ml-28 mt-1'
